@@ -9,7 +9,7 @@ body {
 
 .card {
   display: flex;
-  width: 600px;
+  width: 500px;
   background: white;
   border-radius: 8px;
   overflow: hidden;

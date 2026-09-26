@@ -83,3 +83,39 @@ button:hover {
   transform: scale(1.03);
   transition: 0.3s;
 }
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 95%;
+    flex-direction: row;
+  }
+
+  .card-image,
+  .card-content {
+    width: 50%;
+  }
+
+  .card-content {
+    padding: 20px 12px;
+  }
+
+  .card-content h2 {
+    font-size: 18px;
+  }
+
+  .card-content p {
+    font-size: 10px;
+  }
+
+  .current-price {
+    font-size: 20px;
+  }
+
+  .price {
+    gap: 8px;
+  }
+
+  button {
+    padding: 10px 5px;
+  }
+}
